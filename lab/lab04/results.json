@@ -1,0 +1,46 @@
+{
+    "tests": [
+        {
+            "score": 3,
+            "max_score": 3,
+            "name": "test_lab04.py::test_iron_puzzle",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_lab04.py::test_west_puzzle",
+            "output": "\nwest_puzzle = <function west_puzzle at 0x106cc76a0>\n\n    @max_score(3)\n    @with_import('lab04', 'west_puzzle')\n    def test_west_puzzle(west_puzzle):\n>       observed = west_puzzle(test_files / 'west.png')\n\ntest_lab04.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nfilename = PosixPath('/Users/daviswollesen/Desktop/cs111/lab/lab04/test_files/west.png')\n\n    def west_puzzle(filename):\n        \"\"\"Write your code here\"\"\"\n        image = Image(filename)\n>       width, height = image.size\nE       AttributeError: 'Image' object has no attribute 'size'\n\nlab04.py:29: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_lab04.py::test_darken",
+            "output": "\ndarken = <function darken at 0x106cc7740>\n\n    @max_score(3)\n    @with_import('lab04', 'darken')\n    def test_darken(darken):\n        observed = darken(test_files / 'cougar.png', 0.8)\n>       assert_equal(observed, image_solutions.darken_solution)\n\ntest_lab04.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nobserved = None, expected = <byuimage.Image object at 0x106650890>\n\n    def assert_equal(observed: Image, expected: Image):\n>       assert observed.width == expected.width\nE       AttributeError: 'NoneType' object has no attribute 'width'\n\ntest_lab04.py:10: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_lab04.py::test_grayscale",
+            "output": "\ngrayscale = <function grayscale at 0x106cc77e0>\n\n    @max_score(3)\n    @with_import('lab04', 'grayscale')\n    def test_grayscale(grayscale):\n        observed = grayscale(test_files / 'cougar.png')\n>       assert_equal(observed, image_solutions.grayscale_solution)\n\ntest_lab04.py:46: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nobserved = None, expected = <byuimage.Image object at 0x106c5ec50>\n\n    def assert_equal(observed: Image, expected: Image):\n>       assert observed.width == expected.width\nE       AttributeError: 'NoneType' object has no attribute 'width'\n\ntest_lab04.py:10: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_lab04.py::test_sepia",
+            "output": "\nsepia = <function sepia at 0x106cc7880>\n\n    @max_score(3)\n    @with_import('lab04', 'sepia')\n    def test_sepia(sepia):\n        observed = sepia(test_files / 'cougar.png')\n>       assert_equal(observed, image_solutions.sepia_solution)\n\ntest_lab04.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nobserved = None, expected = <byuimage.Image object at 0x106cbb250>\n\n    def assert_equal(observed: Image, expected: Image):\n>       assert observed.width == expected.width\nE       AttributeError: 'NoneType' object has no attribute 'width'\n\ntest_lab04.py:10: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 5,
+            "name": "test_lab04.py::test_create_left_border",
+            "output": "\ncreate_left_border = <function create_left_border at 0x106cc7920>\n\n    @max_score(5)\n    @with_import('lab04', 'create_left_border')\n    def test_create_left_border(create_left_border):\n        observed = create_left_border(test_files / 'cougar.png', 25)\n>       assert_equal(observed, image_solutions.create_left_border_solution)\n\ntest_lab04.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nobserved = None, expected = <byuimage.Image object at 0x106651f10>\n\n    def assert_equal(observed: Image, expected: Image):\n>       assert observed.width == expected.width\nE       AttributeError: 'NoneType' object has no attribute 'width'\n\ntest_lab04.py:10: AttributeError",
+            "visibility": "visible"
+        }
+    ]
+}

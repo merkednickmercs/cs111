@@ -1,0 +1,39 @@
+{
+    "tests": [
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework2.py::test_flipped_with_landscape",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework2.py::test_flipped_with_flamingo_float",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework2.py::test_make_borders_landscape",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework2.py::test_make_borders_flamingo_float_10",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework2.py::test_make_borders_flamingo_float_5",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

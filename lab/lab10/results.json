@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 0,
+            "max_score": 4,
+            "name": "test_lab10.py::test_random_rocks",
+            "output": "\nGrid = <class 'Grid.Grid'>, random_rocks = <function random_rocks at 0x103ec4180>\n\n    @max_score(4)\n    @with_import('lab10', 'random_rocks')\n    @with_import('Grid', 'Grid')\n    def test_random_rocks(Grid, random_rocks):\n        input = build_grid(\n            Grid,\n            [[None, 't', None, None],\n             [None, None, None, None],\n             [None, None, None, None]]\n        )\n        key = build_grid(\n            Grid,\n            [[None, 't', 'r', 'r'],\n             [None, 'r', 'r', None],\n             ['r', None, 'r', None]]\n        )\n    \n        random.seed(22)\n>       output = random_rocks(input, 0.4)\n\ntest_lab10.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ngrid = Grid.build([[None, 't', None, None], [None, None, None, None], [None, None, None, None]]), chance_of_rock = 0.4\n\n    def random_rocks(grid, chance_of_rock):\n    \n        new_grid = deepcopy(grid)\n        for y in range(new_grid.height):\n            for x in range(new_grid.width):\n                if new_grid.get(x,y) is None:\n>                   if random() <= chance_of_rock:\nE                   TypeError: 'module' object is not callable\n\nlab10.py:23: TypeError",
+            "visibility": "visible"
+        }
+    ]
+}

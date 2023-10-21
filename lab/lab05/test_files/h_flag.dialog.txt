@@ -1,0 +1,4 @@
+Valid flags:
+-p : prints out all the command line arguments after the -p
+-i : prints "Hello World"
+-h : prints out a help command

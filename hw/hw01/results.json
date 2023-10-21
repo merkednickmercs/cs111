@@ -1,0 +1,46 @@
+{
+    "tests": [
+        {
+            "score": 15,
+            "max_score": 15,
+            "name": "test_admissions.py::test_student_scores",
+            "output": "done!\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_admissions.py::test_chosen_student",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_admissions.py::test_outliers",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_admissions.py::test_improved_chosen",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_admissions.py::test_chosen_improved",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 15,
+            "max_score": 15,
+            "name": "test_admissions.py::test_extra_improved_chosen",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

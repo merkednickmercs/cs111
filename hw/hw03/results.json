@@ -1,0 +1,60 @@
+{
+    "tests": [
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework3.py::test_check_list_malformed",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_homework3.py::test_build",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6,
+            "max_score": 6,
+            "name": "test_homework3.py::test_copy",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6,
+            "max_score": 6,
+            "name": "test_homework3.py::test_repr",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6,
+            "max_score": 6,
+            "name": "test_homework3.py::test_eq",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 3,
+            "max_score": 3,
+            "name": "test_homework3.py::test_get_and_set_in_bounds",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6,
+            "max_score": 6,
+            "name": "test_homework3.py::test_get_set_out_of_bounds",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 3,
+            "max_score": 3,
+            "name": "test_homework3.py::test_str",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

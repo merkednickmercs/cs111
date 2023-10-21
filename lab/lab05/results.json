@@ -1,0 +1,53 @@
+{
+    "tests": [
+        {
+            "score": 1.8261,
+            "max_score": 3.0,
+            "name": "test_lab05.py::test_no_flags[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           assert Observed (left) == Expected (right)\nE             CS                                                                 | lab05.py                                                 \nE             111                                                                | CS                                                       \nE             Rocks!                                                             | 111                                                      \nE                                                                                | Rocks!                                                   \nE                                                                                |\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.0,
+            "max_score": 3.0,
+            "name": "test_lab05.py::test_p_flag[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert Observed (left) == Expected (right)\nE             -p                                                                      | 1                                                                         \nE             1                                                                       | 2                                                                         \nE             2                                                                       | 3                                                                         \nE             3                                                                       |                                                                           \nE                          ...\nE             \nE             ...Full output truncated (1 line hidden), use '-vv' to show\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.1667,
+            "max_score": 2.0,
+            "name": "test_lab05.py::test_i_flag[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert '-i\\n        ...             ' == 'Hello World\\...             '\nE             - Hello World\nE             + -i\nE             -                                                                     \nE             +                                                                              \nE             ?                                                                     +++++++++\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.0231,
+            "max_score": 3.0,
+            "name": "test_lab05.py::test_h_flag[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           assert '-h\\n        ...             ' == 'Valid flags:...elp command\\n'\nE             + -h\nE             +                                                                              \nE             - Valid flags:\nE             - -p : prints out all the command line arguments after the -p\nE             - -i : prints \"Hello World\"\nE             - -h : prints out a help command\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.1429,
+            "max_score": 3.0,
+            "name": "test_lab05.py::test_w_flag_with_no_content[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert '-w\\nw_flag.o...             ' == 'No Content P...             '\nE             - No Content Provided\nE             + -w\nE             + w_flag.output.txt\nE             -                                                             \nE             ?                                                            -\nE             +\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.0,
+            "max_score": 3.0,
+            "name": "test_lab05.py::test_w_flag_with_content[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert 'File not fou...             ' == 'a\\nb\\nc\\nd\\n...             '\nE             + File not found: w_flag.output.txt. Did you write it?                            \nE             - a\nE             - b\nE             - c\nE             - d\nE             -\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.2368,
+            "max_score": 3.0,
+            "name": "test_lab05.py::test_r_flag[everything-else]",
+            "output": "\ngroup_name = 'everything-else'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert '-r\\n/Users/d...put.txt\\n    ' == 'Here\\nare\\ns...             '\nE             + -r\nE             + /Users/daviswollesen/Desktop/cs111/lab/lab05/test_files/r_flag.input.txt\nE             +     \nE             - Here\nE             - are\nE             - some\nE             - lines...\nE             \nE             ...Full output truncated (3 lines hidden), use '-vv' to show\n\n/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/byu_pytest_utils/dialog.py:31: AssertionError",
+            "visibility": "visible"
+        }
+    ]
+}

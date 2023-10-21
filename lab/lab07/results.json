@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 0,
+            "max_score": 6,
+            "name": "test_lab07.py::test_keyboard_add_button",
+            "output": "\nButton = <class 'lab07.Button'>, Keyboard = <class 'lab07.Keyboard'>\n\n    @max_score(6)\n    @with_import('lab07', 'Keyboard')\n    @with_import('lab07', 'Button')\n    def test_keyboard_add_button(Button, Keyboard):\n        b1 = Button(0, \"H\")\n        b2 = Button(1, \"I\")\n        k = Keyboard(b1, b2)\n    \n>       assert str(k) == \"Key: 'H', Pos: 0 | Key: 'I', Pos: 1\"\nE       assert 'key: H, pos:...ey: I, pos: 1' == \"Key: 'H', Po...: 'I', Pos: 1\"\nE         - Key: 'H', Pos: 0 | Key: 'I', Pos: 1\nE         ? ^    - -  ^     - ^^    - -  ^\nE         + key: H, pos: 0|key: I, pos: 1\nE         ? ^       ^      ^       ^\n\ntest_lab07.py:51: AssertionError",
+            "visibility": "visible"
+        }
+    ]
+}

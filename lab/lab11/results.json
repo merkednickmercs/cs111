@@ -1,0 +1,116 @@
+{
+    "tests": [
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_product",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_summation",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_accumulate",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_product_short",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_summation_short",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_square",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_sqrt",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_mean",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_median",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_mode",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_std_dev",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_stat_analysis",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_invert",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_change",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_invert_short",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab11.py::test_change_short",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "tests": [
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_str",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_gravity_out_of_bounds",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_gravity_cant_move",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_gravity_straight_down",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_gravity_down_left",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_gravity_down_right",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_gravity_corner_rule",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_homework4.py::test_sand_move_out_of_bounds",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(3)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_out_of_bounds(Grid, Sand):\n        key = build_sandy_grid(Grid, Sand, [['s']])\n        grid = build_sandy_grid(Grid, Sand, [['s']])\n        sand = grid.get(0, 0)\n>       sand.move(sand.gravity)\nE       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:108: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_homework4.py::test_sand_move_cant_move",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(3)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_cant_move(Grid, Sand):\n        key = build_sandy_grid(\n            Grid, Sand,\n            [[None, 's', None],\n             ['s', 's', 's']]\n        )\n        grid = build_sandy_grid(\n            Grid, Sand,\n            [[None, 's', None],\n             ['s', 's', 's']]\n        )\n        sand = grid.get(1, 0)\n>       sand.move(sand.gravity)\nE       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:127: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_homework4.py::test_sand_move_straight_down",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(3)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_straight_down(Grid, Sand):\n        key = build_sandy_grid(Grid, Sand, [[None], ['s']])\n        grid = build_sandy_grid(Grid, Sand, [['s'], [None]])\n        sand = grid.get(0, 0)\n>       sand.move(sand.gravity)\nE       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:138: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_homework4.py::test_sand_move_down_left",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(3)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_down_left(Grid, Sand):\n        key = build_sandy_grid(Grid, Sand, [[None, None], ['s', 'r']])\n        grid = build_sandy_grid(Grid, Sand, [[None, 's'], [None, 'r']])\n        sand = grid.get(1, 0)\n>       sand.move(sand.gravity)\nE       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:149: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_homework4.py::test_sand_move_down_right",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(3)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_down_right(Grid, Sand):\n        key = build_sandy_grid(Grid, Sand, [['r', None, None], ['r', 's', 's']])\n        grid = build_sandy_grid(Grid, Sand, [['r', 's', None], ['r', 's', None]])\n        sand = grid.get(1, 0)\n>       sand.move(sand.gravity)\nE       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:160: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 3,
+            "name": "test_homework4.py::test_sand_move_corner_rule",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(3)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_corner_rule(Grid, Sand):\n        key = build_sandy_grid(Grid, Sand, [['r', 's', 'r'], [None, 'r', None]])\n        grid = build_sandy_grid(Grid, Sand, [['r', 's', 'r'], [None, 'r', None]])\n        sand = grid.get(1, 0)\n>       sand.move(sand.gravity)\nE       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:171: AttributeError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 4,
+            "name": "test_homework4.py::test_sand_move_falling_example",
+            "output": "\nGrid = <class 'Grid.Grid'>, Sand = <class 'Sand.Sand'>\n\n    @max_score(4)\n    @with_import('Sand', 'Sand')\n    @with_import('Grid', 'Grid')\n    def test_sand_move_falling_example(Grid, Sand):\n        keys = [\n            build_sandy_grid(\n                Grid, Sand,\n                [[None, None, None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 [None, 's', None]]\n            ),\n            build_sandy_grid(\n                Grid, Sand,\n                [[None, None, None],\n                 [None, None, None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 ['s', 's', None]]\n            ),\n            build_sandy_grid(\n                Grid, Sand,\n                [[None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 [None, 's', None],\n                 ['s', 's', 's']]\n            ),\n            build_sandy_grid(\n                Grid, Sand,\n                [[None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 [None, 's', None],\n                 ['s', 's', 's']]\n            )\n        ]\n        grid = build_sandy_grid(\n            Grid, Sand,\n            [[None, 's', None],\n             [None, 's', None],\n             [None, 's', None],\n             [None, 's', None],\n             [None, None, None]]\n        )\n        for key in keys:\n            for y in reversed(range(grid.height)):\n                for x in range(grid.width):\n                    elem = grid.get(x, y)\n                    if isinstance(elem, Sand):\n>                       elem.move(elem.gravity)\nE                       AttributeError: 'SandWrapper' object has no attribute 'move'\n\ntest_homework4.py:226: AttributeError",
+            "visibility": "visible"
+        }
+    ]
+}
